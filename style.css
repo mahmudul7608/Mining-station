@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  box-sizing: border-box;
+  
+}
+.overly {
+  height: 86vh;
+  width: 100%;
+  background-color: rgb(168, 154, 181);
+  position: absolute;
+  opacity: 0.3;
+  margin-top: 146px;
+}
+
+/* logo */
+.logo h2 {
+  color: white;
+  transition: all 0.5s;
+}
+.logo h2 i {
+  font-size: 30px;
+  color: yellow;
+  font-size: 40px;
+}
+
+/* nave bar 1 */
+.nave {
+  height: 2%;
+  background-color: #4c4782;
+  display: flex;
+  padding: 20px 350px;
+  justify-content: space-between;
+}
+
+.sub-nave {
+  display: flex;
+  gap: 30px;
+}
+.sub-nave h4 {
+  color: #fff;
+  opacity: 0.7;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sub-nave h4:hover {
+  opacity: 1;
+}
+.nave h6 {
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline;
+  padding: 15px;
+  opacity: 0.7;
+}
+
+.i i {
+  color: white;
+  padding: 0 7px;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.i i:hover {
+  opacity: 1;
+}
+
+.span {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(16, 61, 2);
+}
+/* nave bar end */
+
+/* nave bar 2 */
+.navbere {
+  background-color: #26243c;
+  margin: auto;
+  padding: 26px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: #f3efef;
+}
+.navbere ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbere ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.8;
+}
+.navbere ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  transition: 0.5s;
+}
+.navbere ul li:hover::after {
+  width: 100%;
+}
+
+/* nave bar 2 end */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  
+
+  gap: 25px;
+  background-color: #2196F3;
+  padding: 30px 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  margin: 2rem;
+  font-size: 30px;
+}
