@@ -3,9 +3,8 @@
   padding: 0;
   font-family: sans-serif;
 }
-body{
+body {
   box-sizing: border-box;
-  
 }
 .overly {
   height: 86vh;
@@ -118,21 +117,44 @@ body{
   width: 100%;
 }
 
-/* nave bar 2 end */
+/* === nave bar 2 end === */
+
+/* === 3rd section start === */
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  
-
-  gap: 25px;
-  background-color: #2196F3;
-  padding: 30px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px 30px;
+  margin: 0 1rem 0 4rem;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
+  border-radius: 20px;
   margin: 2rem;
   font-size: 30px;
 }
+.box-9 {
+  display: flex;
+  gap: 10px;
+}
+.class-img img {
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.class-text {
+  margin-top: 13px;
+}
+.class-text h4 {
+  color: rgb(8, 8, 8);
+  font-family: sans-serif;
+  font-size: 27px;
+}
+.class-text h5 {
+  margin-top: 3px;
+  color: rgb(65, 65, 65);
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/* === 3rd section end === */
